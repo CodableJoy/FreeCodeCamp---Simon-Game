@@ -1,0 +1,180 @@
+.simon{
+  width: 600px;
+  height:600px;
+  background: white;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 50px;
+ border-style:solid;
+  border-width: 5px;
+ 
+  
+ /* display: flex;
+  flex-grow: 1;
+  flex-direction: row;*/
+}
+
+.inner-circle{
+  
+  position: absolute;
+  background:white;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 150px;
+  margin-left: 145px;
+  border-style: solid;
+  border-width: 10px;
+  vertical-align: middle;
+  text-align:center;
+}
+
+#title{
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.displayBtn{
+  margin-top: 20px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+#countBtn{
+  background-color:black;
+  color: red;
+  padding-top: 15px;
+  width: 70px;
+   
+}
+
+#countValue{
+  padding-top: 3px;
+}
+
+.restartBtn{
+  margin-left:112px;
+  padding-top: 5px;
+}
+
+/*h5{
+  margin-top: -8px;
+}*/
+
+.smallcircle{
+  height: 40px;
+  width: 40px;
+  border-style: solid;
+  border-width: 7px;
+  margin-left: 20px;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-left: 35px;
+  vertical-align: middle;
+  box-shadow: 0px 3px grey;
+}
+
+#strictCircle{
+  height: 15px;
+  width: 15px;
+  background:black;
+  border-style: solid;
+  border-width: 3px;
+  margin-left: 20px;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-bottom: -25px;
+  margin-left: 227px;
+  vertical-align: middle;
+  /*box-shadow: 0px 3px grey;*/
+}
+
+.buttonTitle{
+  padding: 10px;
+  margin-left: 6px;
+}
+
+h3{
+   font-size: 20px;
+  font-family: 'Bungee', cursive;
+}
+
+h4{
+  padding-top: 8px;
+  padding-left: 18px;
+  font-size: 17px;
+  font-family: 'Bungee', cursive;
+}
+
+h2{
+  font-family: 'Bungee', cursive;
+  font-size: 28px;
+}
+
+h5{
+  
+  font-family: 'Bungee', cursive;
+  font-size: 15px;
+  
+}
+
+#startBtn{
+  background-color: green;
+}
+
+#strictBtn{
+  background-color: red;
+}
+
+#restartBtn{
+  background-color: yellow;
+  margin-top: -20px;
+  margin-left: 105px;
+  
+}
+
+
+
+
+.quad{
+  width:50%;
+  height:50%;
+  background: black;
+  float: left;
+  border-style:solid;
+  border-width: 5px;
+ 
+   
+}
+
+
+
+
+.green{
+  background:#228B22;
+  border-top-left-radius: 100%;
+  
+  
+}
+
+.red{
+  background:#B22222;
+  border-top-right-radius: 100%;
+}
+
+.yellow{
+  background: #FFD700;
+  border-bottom-left-radius: 100%;
+}
+
+.blue{
+  background: #4169E1;
+  border-bottom-right-radius: 100%;
+}
+
+.page-footer{
+  margin-top: 150px;
+  font-size: 20px;
+  text-align: center;
+}
